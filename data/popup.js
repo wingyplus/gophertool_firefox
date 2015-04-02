@@ -1,5 +1,11 @@
+var inputbox = document.getElementById('inputbox');
+
+self.port.on('focusinput', function() {
+    inputbox.focus();
+});
+
 window.addEventListener('submit', function() {
-    var t = document.getElementById('inputbox').value;
+    var t = inputbox.value;
     var url = urlForInput(t);
     if (!url) {
         return false;
