@@ -1,1 +1,5 @@
 *.xpi
+.bowerrc
+bower_components
+data/packages.js
+data/jquery*

@@ -1,6 +1,11 @@
+/* global: packages */
+
 var inputbox = document.getElementById('inputbox');
 
-self.port.on('focusinput', function() {
+self.port.on('show', function() {
+    $(inputbox).autocomplete({
+        source: packages
+    });
     inputbox.focus();
 });
 

@@ -1,0 +1,22 @@
+{
+  "name": "gophertool_firefox",
+  "version": "0.2",
+  "homepage": "https://github.com/wingyplus/gophertool_firefox",
+  "authors": [
+    "Thanabodee Charoenpiriyakij <wingyminus@gmail.com>"
+  ],
+  "description": "Gophertool on mozilla firefox",
+  "license": "MPL 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "jquery-ui": "~1.11.4"
+  }
+}
