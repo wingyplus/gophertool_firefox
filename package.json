@@ -1,8 +1,8 @@
 {
   "name": "gophertool_firefox",
-  "title": "Gophertool for Firefox",
+  "title": "Gophertool",
   "id": "jid1-TqLzcaFrdq5pOw",
-  "description": "gophertool for Firefox inspired from Chrome gophertool extension",
+  "description": "package, commit, issue finder inspired by google chrome gophertool extension",
   "author": "Thanabodee Charoenpiriyakij <wingyminus@gmail.com>",
   "license": "MPL 2.0",
   "version": "0.3"
